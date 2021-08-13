@@ -1,0 +1,125 @@
+body {
+    background-color: rgba(82, 53, 53, 0.87);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    border: solid 8px rgba(76, 88, 69, 0.904);
+}
+
+h2 {
+    text-align: center;
+}
+
+#front-tree {
+    border: solid 8px rgba(76, 88, 69, 0.904);
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+
+/*------------nav----------------*/
+
+#nav {
+    text-align: center;
+    background-color: gray;
+    border: solid 5px rgba(76, 88, 69, 0.904);
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+#nav a {
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: rgba(76, 88, 69, 0.904);
+    text-decoration: underline;
+}
+
+
+/*-----------about-------------*/
+
+#about-p {
+    text-align: center;
+}
+
+
+/*-----------list-------------*/
+
+ul {
+    list-style-type: none;
+    columns: 2;
+}
+
+.tree-list {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.tree-pic {
+    width: 250px;
+    height: 200px;
+}
+
+
+/*-----------table------------*/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: dimgray;
+}
+
+table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: rgba(76, 88, 69, 0.904);
+    color: black;
+}
+
+#table-div {
+    float: left;
+}
+
+#usda {
+    float: right;
+}
+
+
+/*----------newsletter--------*/
+
+h3 {
+    text-align: center;
+}
+
+#newsletter-div {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    display: block;
+    margin: 10px;
+}
+
+.inputs {
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#newsletter-picture {
+    height: 200px;
+    padding-right: 10px;
+}
