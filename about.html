@@ -5,75 +5,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <h1>Maple Trees</h1>
 
-    <div>
+    <h2>About</h2>
+    <div id="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="newsletter.html">Newsletter</a>
-    </div>
+    </div><br>
 
     <!--my 2nd header-->
-    <h2>About</h2>
-    <p>There are over 100 species of maple trees, here are six of our favorites!</p>
+
+    <p id="about-p">There are over 100 species of maple trees, here are six of our favorites!</p>
 
     <!--here is my list-->
     <ul>
-        <li> Japanese <img height="100 px" src="https://cf.ltkcdn.net/garden/images/std/214625-507x338r1-Japanese-Maple.webp" alt="Japanese Maple"></li>
-        <li> Norway <img height="100 px" src="https://cf.ltkcdn.net/garden/images/std/214626-506x339r1-Norway-Maple.webp" alt="Norway Maple"></li>
-        <li> Sugar <img height="100 px" src="https://cf.ltkcdn.net/garden/images/std/214627-476x361r1-Sugar-maple.webp" alt="Sugar Maple"></li>
-        <li> Paperbark <img height="100 px" src="https://cf.ltkcdn.net/garden/images/std/214634-511x339r1-Acer-Grisum-paperbark-maple.webp" alt="Paperbark Maple"></li>
-        <li> Red <img height="100 px" src="https://cf.ltkcdn.net/garden/images/std/214631-508x339r1-Red-maple.webp" alt="Red Maple"></li>
-        <li> Silver <img height="100 px" src="https://cf.ltkcdn.net/garden/images/std/214633-507x338r1-Silver-Maple-in-Autumn.webp" alt="Silver Maple"></li>
+        <li>
+            <div class="tree-list">
+                <img class="tree-pic" src="https://cf.ltkcdn.net/garden/images/std/214625-507x338r1-Japanese-Maple.webp" alt="Japanese Maple">
+                <p class="caption">Japanese Maple</p>
+            </div>
+        </li>
+        <li>
+            <div class="tree-list">
+                <img class="tree-pic" src="https://cf.ltkcdn.net/garden/images/std/214626-506x339r1-Norway-Maple.webp" alt="Norway Maple">
+                <p class="caption">Norway Maple</p>
+            </div>
+        </li>
+        <li>
+            <div class="tree-list">
+                <img class="tree-pic" src="https://cf.ltkcdn.net/garden/images/std/214627-476x361r1-Sugar-maple.webp" alt="Sugar Maple">
+                <p class="caption">Sugar Maple</p>
+            </div>
+        </li>
+        <li>
+            <div class="tree-list">
+                <img class="tree-pic" src="https://cf.ltkcdn.net/garden/images/std/214634-511x339r1-Acer-Grisum-paperbark-maple.webp" alt="Paperbark Maple">
+                <p class="caption">Paperbark Maple</p>
+            </div>
+        </li>
+        <li>
+            <div class="tree-list">
+                <img class="tree-pic" src="https://cf.ltkcdn.net/garden/images/std/214631-508x339r1-Red-maple.webp" alt="Red Maple">
+                <p class="caption">Red Maple</p>
+            </div>
+        </li>
+        <li>
+            <div class="tree-list">
+                <img class="tree-pic" src="https://cf.ltkcdn.net/garden/images/std/214633-507x338r1-Silver-Maple-in-Autumn.webp" alt="Silver Maple">
+                <p class="caption">Silver Maple</p>
+            </div>
+        </li>
     </ul>
-
-
     <!--here is my table that is used to see differences between 6 maple trees-->
-    <table>
-        <tr>
-            <th></th>
-            <th>Japanese</th>
-            <th>Norway</th>
-            <th>Sugar</th>
-            <th>Paperbark</th>
-            <th>Red</th>
-            <th>Silver</th>
-        </tr>
-        <tr>
-            <td>Mature Height</td>
-            <td>25 Feet</td>
-            <td>50 Feet</td>
-            <td>120 Feet</td>
-            <td>25 Feet</td>
-            <td>75 Feet</td>
-            <td>70 Feet</td>
-        </tr>
-        <tr>
-            <td>USDA Hardiness Zone</td>
-            <td>5-8</td>
-            <td>4-7</td>
-            <td>3-8</td>
-            <td>5-8</td>
-            <td>3-9</td>
-            <td>3-9</td>
-        </tr>
-        <tr>
-            <td>Autumn Color</td>
-            <td>Dark Red/Orange</td>
-            <td>Yellow/Orange</td>
-            <td>Bright Orange/Red</td>
-            <td>Red</td>
-            <td>Red</td>
-            <td>Yellow</td>
-        </tr>
-    </table>
+    <div id="table-div">
+        <table>
+            <tr>
+                <th>Maple Trees:</th>
+                <th>Japanese</th>
+                <th>Norway</th>
+                <th>Sugar</th>
+                <th>Paperbark</th>
+                <th>Red</th>
+                <th>Silver</th>
+            </tr>
+            <tr>
+                <td>Mature Height</td>
+                <td>25 Feet</td>
+                <td>50 Feet</td>
+                <td>120 Feet</td>
+                <td>25 Feet</td>
+                <td>75 Feet</td>
+                <td>70 Feet</td>
+            </tr>
+            <tr>
+                <td>USDA Hardiness Zone</td>
+                <td>5-8</td>
+                <td>4-7</td>
+                <td>3-8</td>
+                <td>5-8</td>
+                <td>3-9</td>
+                <td>3-9</td>
+            </tr>
+            <tr>
+                <td>Autumn Color</td>
+                <td>Dark Red/Orange</td>
+                <td>Yellow/Orange</td>
+                <td>Bright Orange/Red</td>
+                <td>Red</td>
+                <td>Red</td>
+                <td>Yellow</td>
+            </tr>
+        </table>
+    </div>
+    <div id="usda">
+        <img height="300 px" src="https://s3.amazonaws.com/cdn0.dutchbulbs.com/images/Zone_map4.gif" alt="USDA Hardiness Zone Map">
 
-    <img height="300 px" src="https://s3.amazonaws.com/cdn0.dutchbulbs.com/images/Zone_map4.gif" alt="USDA Hardiness Zone Map">
+    </div>
 </body>
 
 </html>
